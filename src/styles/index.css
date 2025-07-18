@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Inter;
+}
+
+* {
+  box-sizing: border-box;
+  line-height: normal;
+  font-family: inherit;
+  margin: unset;
+}
+
+/* styles.css or global.css */
+.gradient-top {
+  background: linear-gradient(135deg, #F8F4F0 0%, #DDD0C8 30%, #B0A89F 65%, #F9FAFB 100%);
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.gradient-bottom {
+  background: linear-gradient(55deg, #F8F4F0 0%, #DDD0C8 30%, #B0A89F 65%, #F9FAFB 100%);
+  margin: 0;
+  padding: 0;
+  display: block;
+  margin-top: -1px; /* Overlap to remove line */
+}
+
+.gradient-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  gap: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
